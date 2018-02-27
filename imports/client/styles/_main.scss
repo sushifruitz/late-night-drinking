@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+//FONT VARIABLES
+$roboto-slab: 'Roboto Slab',
+serif;
+$open-sans: 'Open Sans',
+sans-serif;
+
+//COLOR VARIABLES
+$green: #e2f1e2;
+$green-border: darken($green, 20%);
+$yellow: #f8f7d2;
+$yellow-border: darken($yellow, 20%);
+$red: #e4d3d3;
+$red-border: darken($red, 20%);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background: rgb(247, 247, 247);
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(40, 44, 52);
+  font-family: $roboto-slab;
+  font-weight: normal;
+}
+body {
+  line-height: 1;
+  font-family: $open-sans;
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+
+input, button, select {
+  font-size: 1.5rem;
+}
+
+//IMPORTS
+@import './ui/wrapper';
+@import './ui/titleBar';
+@import './ui/item';
+@import './ui/button';
+@import './ui/form';
+@import './ui/player';

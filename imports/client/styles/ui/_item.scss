@@ -1,0 +1,29 @@
+.item{
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 1.2rem;
+  padding: 1.2rem;
+}
+
+.item--position-1 {
+  background: $green;
+  border: 1px solid $green-border;
+}
+
+.item--position-2 {
+  background: $yellow;
+  border: 1px solid $yellow-border;
+}
+
+.item--position-3 {
+  background: $red;
+  border: 1px solid $red-border;
+}
+
+.item__message {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(40, 44, 52, 0.315);
+}
